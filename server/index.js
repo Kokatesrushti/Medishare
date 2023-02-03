@@ -5,7 +5,6 @@ const cors=require('cors');
 const path=require('path')
 const env=require('dotenv')
 
-env.config();
 // console.log(process.env.DATABASE_URL);
 
 const app=express();
@@ -21,7 +20,7 @@ app.use(bodyParser());
 // })
 
 //routes
-// const userRoutes=require('./routes/user');
+const userRoutes=require('./routes/user');
 // const adminAuthRoutes=require('./routes/admin/auth');
 // const categoryRoutes=require('./routes/category');
 // const productRoutes=require('./routes/product');
@@ -47,7 +46,8 @@ mongoose.connect(`${DATABASE_URL}`,
 
 
 app.use(cors());
-// app.use('/api',userRoutes);
+
+app.use('/api',userRoutes);
 // app.use('/api',adminAuthRoutes);
 // app.use('/api',categoryRoutes);
 // app.use('/api',productRoutes);
@@ -55,6 +55,6 @@ app.use(cors());
 // app.use('/api',contactRoutes);
 // app.use('/api',paymentRoutes);
 
-app.listen(process.env.PORT,()=>{
+app.listen(PORT,()=>{
     console.log(`Server running at ${PORT}`)
 });

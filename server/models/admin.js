@@ -23,9 +23,6 @@ const adminSchema=new mongoose.Schema({
         type:String,
         required:true
     },
-    cart: {
-        type: [{type:mongoose.Schema.Types.ObjectId,ref:'Product'}] 
-    },
     hash_pass:{
         type:String,
         required:true

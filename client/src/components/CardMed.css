@@ -1,0 +1,82 @@
+.Card{
+    height:70px;
+    width:70%;
+    background-color: rgb(233, 227, 227);
+    border-radius: 4px;
+    display:flex;
+    margin-right: 15px;
+    position: relative;
+    top: 100px;
+   
+}
+.name{
+    margin-right: 20px;
+    margin-top:20px;
+    font-size: 20px;
+    padding-left:20px;
+}
+.Mfgdate{
+    margin-right: 25px;
+    margin-top:20px;
+    font-size: 20px;
+    padding-left:20px;
+}
+.Expirydate{
+    /* position:relative;
+    margin-top: 2opx;
+    border-radius: 2px; */
+    margin-right: 25px;
+    margin-top:20px;
+    font-size: 20px;
+    padding-left:20px;
+}
+.price{
+    /* position:relative;
+    margin-top: 2opx;
+    border-radius: 2px; */
+    margin-right: 25px;
+    margin-top:20px;
+    font-size: 20px;
+    padding-left:20px;
+}
+.illness{
+    /* position:relative;
+    margin-top: 2opx;
+    border-radius: 2px; */
+    margin-right: 25px;
+    margin-top:20px;
+    font-size: 20px;
+    padding-left:20px;
+}
+
+.buy-btn {
+    position:relative;
+    margin-top: 2opx;
+    border-radius: 2px;
+}
+
+#button {
+    background-color: #1CB5BD;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+   margin-left: 10px;
+   margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  #button:hover {
+    background-color: #67c2c2;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+   margin-left: 10px;
+   margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }

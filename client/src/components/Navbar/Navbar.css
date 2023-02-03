@@ -1,0 +1,116 @@
+.main-nav{
+    min-height: 60px;
+    width:100%;
+    margin : 0% auto;
+    /* border-top: solid 3px #ef8236; */
+    box-shadow: 0px 1px 5px #00000033;
+    position: fixed;
+    z-index: 5;
+    top: 0%;
+    left: 0%;
+    background-color: #f8f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#medicare-care{
+    color: black;
+}
+
+#logo {
+    text-decoration: none;
+    position: absolute;
+    left: 60px;
+    bottom: 12px;
+}
+
+.navbar{
+    height: 100%;
+    min-width: 85%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.nav-logo{
+    padding: 5px 25px;
+}
+
+.nav-item{
+    margin: 0px 3px;
+    color: rgb(69,69,69);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: small;
+    transition: 0.2s;
+
+}
+
+.nav-btn{
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.nav-item:hover{
+ background-color: rgb(226,226,226);
+}
+
+.navbar form{
+    flex-grow: 1;
+    padding: 0px 12px;
+    position: relative;
+}
+
+.navbar form input{
+    min-width: 90%;
+    margin: 0;
+    padding: 8px 10px 8px 32px;
+    font-size: 13px;
+    border: solid 1px #0000003e;
+    border-radius: 3px;
+}
+
+.navbar form .search-icon {
+    position: absolute;
+    left:19px;
+    top: 6px;
+}
+
+.nav-links{
+    padding: 10px 13px;
+    border: solid 1px #1CB5BD;
+    border-radius: 3px;
+    background-color: #1CB5BD;
+    cursor: pointer;
+}
+#button {
+    background-color: #1CB5BD;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+   margin-left: 10px;
+   margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  #button:hover {
+    background-color: #67c2c2;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+   margin-left: 10px;
+   margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+.nav-links:hover{
+    background-color: #d3e4eb;
+}

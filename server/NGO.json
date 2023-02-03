@@ -1,0 +1,36 @@
+[
+    {
+        "_id":"NGO_1",
+        "name":"First NGO",
+        "location":"Thane",
+        "email":"first@gmail.com",
+        "contact":"0123456789"
+    },
+    {
+        "_id":"NGO_2",
+        "name":"Second NGO",
+        "location":"Mumbai",
+        "email":"second@gmail.com",
+        "contact":"0123456789"
+    },
+    {
+        "_id":"NGO_3",
+        "name":"Third NGO",
+        "location":"Pune",
+        "email":"third@gmail.com",
+        "contact":"0123456789"
+    },
+    {
+        "_id":"NGO_4",
+        "name":"Fourth NGO",
+        "location":"Vashi",
+        "email":"fourth@gmail.com",
+        "contact":"0123456789"
+    },
+    {   "_id":"NGO_5",
+        "name":"Fifth NGO",
+        "location":"Panvel",
+        "email":"Fifth@gmail.com",
+        "contact":"0123456789"
+    }
+]

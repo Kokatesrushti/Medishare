@@ -1,0 +1,122 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.searchContainer{
+    background-color: #B9F3FC;
+    position:relative;
+    height: 350px;
+    padding-top: 280px;
+    /* top:40px; */
+}
+
+.search{
+    min-width: 30%;
+    /* margin: 0; */
+    /* margin-top: -500px; */
+    padding: 8px 10px 8px 32px;
+    font-size: 13px;
+    border-radius: 3px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.searchngo{
+    margin-top: -230px;
+    margin-left: 800px;
+}
+
+.Card{
+    height:50px;
+    width:50%;
+    gap: 2;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    display:flex;
+    /* margin-right: 15px; */
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+.title{
+    flex: 3;
+    margin-right: 20px;
+    /* margin-top:20px; */
+    font-size:25px;
+    color:#1b2047;
+}
+.location{
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 1;
+    margin-left: -200px;
+    margin-right: 25px;
+    /* margin-top:20px; */
+    font-size: 20px;
+    color: #565656;
+    background-color: #ebeff6;
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.cntbtn{
+    height: 30px;
+    width: 50px;
+    flex: 2;
+    position:relative;
+    margin-top: 5px;
+    border-radius: 2px;
+    margin-left: 30px;
+}
+.btn{
+    padding: 10px;
+    border: none;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.searchimg{
+    margin-left: 800px;
+    margin-top: -500px;
+}
+.rect{
+    width: 10px;
+    background-color: #E2E8F0;
+    margin-right: 10px;
+}
+#button {
+    background-color: #1CB5BD;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+   margin-left: 10px;
+   margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  #button:hover {
+    background-color: #67c2c2;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+   margin-left: 10px;
+   margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  footer{
+    position: relative;
+    top: 150px;
+    margin-top: 150px;
+    height: 500px;
+    width: auto;
+    background-color: #1CB5BD;
+}

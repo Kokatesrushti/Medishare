@@ -1,0 +1,27 @@
+
+.Card{
+    height:70px;
+    width:70%;
+    background-color: white;
+    border-radius: 4px;
+    display:flex;
+    margin-right: 15px;
+   
+}
+.title{
+    margin-left: 20px;
+    margin-top:20px;
+    font-size: 20px;
+}
+.location{
+    margin-top:15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.cntbtn{
+    margin-right: 25px;
+    position:relative;
+    margin-top: 20px;
+    border-radius: 2px;
+}

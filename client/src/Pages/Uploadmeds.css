@@ -1,0 +1,42 @@
+.grid-container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    overflow:overlay;
+  
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #grid2 {
+    background: #1CB5BD;
+border-radius: 10px;
+  }
+
+  #bluemeds {
+    position: absolute;
+left: 1300px;
+top: 250px;
+  }
+
+  #whitemeds {
+    position: absolute;
+    left: 1486px;
+    top: 209px;
+  }
+
+  #capsules {
+    position: absolute;
+    left: 840px;
+    top: 109px;
+  }
+
+  #h1-upload {
+    text-align: left;
+    font-family: 'roboto';
+  }

@@ -34,6 +34,16 @@ const userSchema=new mongoose.Schema({
         type:String,
         enum:['user','admin'],
         default:'user'
+    },
+    profession:{
+        type: String,
+        enum:['doctor','other'],
+        default:'other'
+    },
+    volunteer:{
+        type: Boolean,
+        default: false
+
     }
 },{timestamps:true});
 
